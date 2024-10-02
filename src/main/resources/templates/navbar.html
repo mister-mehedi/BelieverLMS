@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="headerfiles">
+  <meta charset="ISO-8859-1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <style>
+      /*.header{*/
+      /*    background-color: #BA38B8;*/
+      /*}*/
+    /*#BA38B8*/
+
+    /*.bg-dark {*/
+    /*  background-color: #BA38B8!important;*/
+    /*}*/
+
+  </style>
+
+
+</head>
+<body>
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark" th:fragment="profile-nav">-->
+<!--  <div class="container-fluid">-->
+<!--    <a class="navbar-brand" href="#">Believer</a> &lt;!&ndash; href &ndash;&gt;-->
+<!--    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--      <span class="navbar-toggler-icon"></span>-->
+<!--    </button>-->
+<!--    <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+
+<!--&lt;!&ndash;      <ul class="navbar-nav me-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--&lt;!&ndash;        <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;          <a class="nav-link" th:href="@{/home}">Profile</a> &lt;!&ndash; href need to be changed in future &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        </li>&ndash;&gt;-->
+
+<!--&lt;!&ndash;      </ul>&ndash;&gt;-->
+
+
+
+
+<!--&lt;!&ndash;        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--&lt;!&ndash;            <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                <a class="nav-link" th:href="@{/navigateCohort}">Cohort</a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;            <li class="nav-item">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                <a class="nav-link" href="#">Setting</a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            </li>&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;        </ul>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ul class="navbar-nav me-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--&lt;!&ndash;            <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                <a class="nav-link" href="#"><em> #Beliver </em></a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;        </ul>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--&lt;!&ndash;            <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                <a class="nav-link" href="#"><strong> =Profile View= </strong></a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;        </ul>&ndash;&gt;-->
+
+<!--        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" th:href="@{/navigateCohort}">Courses</a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;-->
+<!--            </li>-->
+
+<!--            <li class="nav-item">-->
+<!--                &lt;!&ndash;          <a class="nav-link" th:href="@{/logOut}">Logout</a> &lt;!&ndash; need to confirm &ndash;&gt;&ndash;&gt;-->
+
+<!--                <form name="logoutForm" th:action="@{/logout}" method="post" th:hidden="true">-->
+<!--                    <input th:hidden="true" type="submit" value="Sign Out"/>-->
+<!--                </form>-->
+
+<!--                <a class="nav-link" href="javascript: document.logoutForm.submit()">Sign out</a>-->
+<!--            </li>-->
+
+<!--        </ul>-->
+
+<!--    </div>-->
+<!--  </div>-->
+<!--</nav>-->
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark" th:fragment="cohort-out-nav-teacher">-->
+<!--    <div class="container-fluid">-->
+<!--        <a class="navbar-brand" href="#">Believer</a> &lt;!&ndash; href &ndash;&gt;-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+
+<!--            &lt;!&ndash;            <ul class="navbar-nav me-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--            &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <a class="nav-link" th:href="@{/home}">Profile</a> &lt;!&ndash; href need to be changed in future &ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;                </li>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            </ul>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--            &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <a class="nav-link" th:href="@{/navigateCohort}">Cohort</a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;                </li>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <a class="nav-link" href="#">Setting</a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;                </li>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            </ul>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            <ul class="navbar-nav me-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--            &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <a class="nav-link" href="#"><em> #Beliver </em></a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </ul>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--            &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <a class="nav-link" href="#"><strong> =Course List View= </strong></a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </ul>&ndash;&gt;-->
+
+<!--            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#"><mark> <b>&nbsp;&nbsp;+&nbsp;&nbsp;</b> </mark></a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;-->
+<!--                </li>-->
+
+<!--                <li class="nav-item">-->
+<!--                    &lt;!&ndash;                    <img th:src="*{'data:image/jpeg;base64,'+ {user.getStdImage()}}" alt="" src="" width="20px" height="20px">&ndash;&gt;-->
+<!--                    <a class="nav-link" th:href="@{/home}">Profile</a> &lt;!&ndash; href need to be changed in future &ndash;&gt;-->
+<!--                </li>-->
+
+<!--                &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--                &lt;!&ndash;                    &lt;!&ndash;          <a class="nav-link" th:href="@{/logOut}">Logout</a> &lt;!&ndash; need to confirm &ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                    <form name="logoutForm" th:action="@{/logout}" method="post" th:hidden="true">&ndash;&gt;-->
+<!--                &lt;!&ndash;                        <input th:hidden="true" type="submit" value="Sign Out"/>&ndash;&gt;-->
+<!--                &lt;!&ndash;                    </form>&ndash;&gt;-->
+
+<!--                &lt;!&ndash;                    <a class="nav-link" href="javascript: document.logoutForm.submit()">Sign out</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+
+<!--            </ul>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+
+
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark" th:fragment="cohort-out-nav-student">-->
+<!--    <div class="container-fluid">-->
+<!--        <a class="navbar-brand" href="#">Believer</a> &lt;!&ndash; href &ndash;&gt;-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--&lt;!&ndash;            <ul class="navbar-nav me-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--&lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a class="nav-link" href="#"><em> #Beliver </em></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--&lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--&lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <a class="nav-link" href="#"><strong> =Course List View= </strong></a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--&lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" th:href="@{/home}">Profile</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark" th:fragment="sub-cohort-out-nav-student">-->
+<!--    <div class="container-fluid">-->
+<!--        <a class="navbar-brand" href="#">Believer</a> &lt;!&ndash; href &ndash;&gt;-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--            &lt;!&ndash;            <ul class="navbar-nav me-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--            &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <a class="nav-link" href="#"><em> #Beliver </em></a>&ndash;&gt;-->
+<!--            &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--            &lt;!&ndash;            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">&ndash;&gt;-->
+<!--            &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <a class="nav-link" href="#"><strong> =Course List View= </strong></a>&ndash;&gt;-->
+<!--            &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" th:href="@{/navigateCohort}">Courses</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" th:href="@{/home}">Profile</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark" th:fragment="cohort-materials-teacher">-->
+<!--    <div class="container-fluid">-->
+<!--        <a class="navbar-brand" href="#">Believer</a> &lt;!&ndash; href &ndash;&gt;-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#"><mark> <b>&nbsp;&nbsp;+&nbsp;&nbsp;</b> </mark></a> &lt;!&ndash; need to be changed by using if-else to teacher cohort for teacher and student cohort for student &ndash;&gt;-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" th:href="@{/navigateCohort}">Courses</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" th:href="@{/home}">Profile</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark" th:fragment="cohort-materials-student">-->
+<!--    <div class="container-fluid">-->
+<!--        <a class="navbar-brand" href="#">Believer</a> &lt;!&ndash; href &ndash;&gt;-->
+<!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+<!--        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" th:href="@{/navigateCohort}">Courses</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" th:href="@{/home}">Profile</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" th:fragment="navv">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Believer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/navigateGroups}">Courses</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/home}">Profile</a>
+                </li>
+
+                <li class="nav-item">
+
+                    <form name="logoutForm" th:action="@{/logout}" method="post" th:hidden="true">
+                        <input th:hidden="true" type="submit" value="Sign Out"/>
+                    </form>
+
+                    <a class="nav-link" href="javascript: document.logoutForm.submit()">Sign out</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main-container{
+    min-height: calc(100vh - 136px);
+    /*background: #eff4fd;*/
+}
+
+h1{
+    text-align: center;
+}
+
+.section-box{
+    align-items: center;
+}
+
+.menu-bar{
+    background: linear-gradient(-45deg, #BA38B8, #23a6d5);
+    animation: gradient 15s ease infinite;
+}
+
+.text-box{
+    align-items: center;
+}
+
+.card-form{
+    background: linear-gradient(-45deg, #BA38B8, #23a6d5);
+    animation: gradient 15s ease infinite;
+    /*background: #BA38B8;*/
+}
+
+.card{
+    background: linear-gradient(-45deg, #BA38B8, #23a6d5);
+    animation: gradient 15s ease infinite;
+    /*background: #BA38B8;*/
+    width: 100%;
+}
+
+.card p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card input{
+    margin-bottom: 40px;
+    height: 35px;
+}
+
+.warning{
+    position: relative;
+    margin-top: -37px;
+}
+
+.btn{
+    background: #ADD8E6;
+    color: black;
+    font-size: 20px;
+}
+
+.wrap-box-text{
+    font-size: 20px;
+}
+
+.wrap-box-text-link{
+    font-size: 20px;
+}
+
+footer{
+    height: 80px;
+    text-align: center;
+    /*line-height: 80px;*/
+}

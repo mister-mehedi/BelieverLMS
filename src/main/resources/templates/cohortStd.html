@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p th:text="${cohort.getCohortName()}"></p>
+<p th:text="${cohort.getCohortCreator().getFullName()}"></p>
+
+<div th:each="post : ${postList}">
+    <p th:text="${post.getPostDesc()}"></p>
+    <div th:each="file: ${post.getListOfAttachedFiles()}">
+        <a th:href="@{/file/{fileName} (fileName = ${file.getName()})}" target="_blank">
+            <td th:text="${file.getName()}"></td>
+        </a>
+    </div>
+</div>
+
+<div th:each="quiz : ${quizList}">
+    <a th:href="@{/quizStudent/{id} (id = ${quiz.getId()})}">
+    <p th:text="${quiz.getQuizName()}"> </p>
+    </a>
+</div>
+
+</body>
+</html>

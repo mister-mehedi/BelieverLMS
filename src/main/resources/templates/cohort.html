@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" th:href="@{/Quiz.css}">
+    <title>Cohort</title>
+</head>
+<body>
+
+<div>
+    <p th:text="${cohort.getCohortName()}"></p>
+    <b>Student List in this cohort</b>
+    <br>
+    <div th:each="studentList : ${cohort.getStudentList()}">
+        <p th:text="${studentList.getFullName()}"></p>
+    </div>
+    <b>Cohort List in this cohort</b>
+    <div th:each="cohortList : ${cohort.getCohortList()}">
+        <a th:href="@{/cohort/{id} (id = ${cohortList.getId()})}">
+            <p th:text="${cohortList.getCohortName()}"></p>
+        </a>
+    </div>
+
+    <br>
+    <b>LIST OF STUDENTS IN DATABASE</b>
+    <div th:each="student : ${students}">
+        <p th:text="${student.getFullName()} + ' ' + ${student.getStdId()} "></p>
+        <a th:href="@{/addStudent/{cohortID}/{studentID} (cohortID = ${cohort.getId()}, studentID = ${student.getStdId()})}">ADD</a>
+    </div>
+
+    <b>List of Cohort in database</b>
+    <div th:each="SubCohort : ${cohorts}">
+        <p th:text="${SubCohort.getCohortName()}"></p>
+        <a th:href="@{/addSubCohort/{addToCohortID}/{subCohortID} (addToCohortID = ${cohort.getId()}, subCohortID = ${SubCohort.getId()})}">ADD</a>
+    </div>
+
+    <form method="post" th:action="@{/post/{cohortID} (cohortID=${cohort.getId()})}" enctype="multipart/form-data">
+        <label>
+            <input type="text" name="postDesc"/>
+        </label>
+        <input type="file" name="listOfAttachedFiles" multiple class="form-control-file"/>
+        <button type="submit">POST</button>
+    </form>
+
+
+    <div th:each="post : ${postList}">
+        <p th:text="${post.getPostDesc()}"></p>
+        <div th:each="file: ${post.getListOfAttachedFiles()}">
+            <a th:href="@{/file/{fileName} (fileName = ${file.getName()})}" target="_blank">
+                <td th:text="${file.getName()}"></td>
+            </a>
+        </div>
+    </div>
+
+
+    <!--    Quiz Creator -->
+    <div class="container" id="container">
+        <div class="row" id="quizConfig">
+            <form class="col s12" th:action="@{/createQuiz/{cohortID} (cohortID=${cohort.getId()})}">
+                <div class="row">
+                    <div class="input-field col m6 s12">
+                        <input placeholder="Name" name="quizName" id="quizName" type="text" class="validate">
+                        <label for="quizName">Name of the quiz</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col m6 s12">
+                        <input placeholder="1 - 100" name="quizQuestionNum" id="qTotal" type="number" class="validate">
+                        <label for="qTotal">Number of questions to create</label>
+                    </div>
+                </div>
+
+
+                <div class="col s6">
+                    <button type="submit" id="generateBtn" class="waves-effect waves-light btn-small">Generate Quiz
+                    </button>
+                </div>
+
+            </form>
+
+            <div th:each="quiz : ${quizList}">
+                <a th:href="@{/quizStudent/{id} (id = ${quiz.getId()})}">
+                    <p th:text="${quiz.getQuizName()}"> </p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

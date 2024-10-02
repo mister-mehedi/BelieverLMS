@@ -1,0 +1,364 @@
+bus_route_id,bus_name,bus_route
+1,Achim Paribahan Bus Route (???? ??????),"Gabtoli ? Technical ? Ansar Camp ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Jamuna Future Park ? Bashundhara ? Nadda ? Notun Bazar ? Bashtola ? Shahjadpur ? Uttar Badda ? Badda – Madhya Badda ? Merul ? Rampura Bridge ? Banasree ? Demra Staff Quarter
+See Full Route Map"
+2,Active Paribahan Bus Route (?????? ??????),"Shia Masjid ? Adabor ? Shyamoli ? Technical ? Ansar Camp ? Mirpur 1 ? Sony Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewrapara ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+3,Agradut Bus Route (???????),"Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? Agargaon ? Zia Uddyan ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda Link Road ? Bashtola ? Shahjadpur ? Uttar Badda ? Notun Bazar
+See Full Route Map"
+4,Airport Bangabandhu Avenue Bus Route (????????? ????????? ?????? ????????????),"Fulbaria ? Golap Shah Mazar ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Chairman Bari ? Sainik Club ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+5,Azmeri Glory Bus Route (?????? ??????),"Sadarghat ? Ray Saheb Bazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Nabisco ? Mohakhali ? Sainik Club ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Bypass ? Konabari ? Chandra
+See Full Route Map"
+6,Ajmi Bus Route (???? ???),"Dhamrai ? Savar ? Hemayetpur ? Aminbazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad gate ? Dhanmondi 27 ? Dhanmondi 32 ? Kalabagan ? City College ? New Market ? Nilkhet ? Azimpur ? Bakshi Bazar ? Gulistan ? Chittagong Road
+See Full Route Map"
+7,Akash Bus Route (???? ???),"Kadamtali ? Keraniganj ? Babubazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi
+See Full Route Map"
+8,Akik Bus Route (???? ???),"Ansar Camp ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Jamuna Future Park ? Bashundhara ? Nadda ? Notun Bazar ? Bashtola ? Shahjadpur ? Uttar Badda
+See Full Route Map"
+9,Al Makka Bus Route(?? ????? ???),"Motijheel – Gulistan – GPO – Paltan – Kakrail – Shantinagar – Malibagh Moor – Mouchak – Mogbazar – Nabisco – Mohakhali – Chairman Bari – Kakali – Banani – ECB Square – Kalshi – Purobi – Mirpur 10 – Mirpur 2 – Mirpur 1
+See Full Route Map"
+10,Al Madina Plus One Bus Route (?? ????? ????? ?????),"Nandan Park ? Zirani Bazar ? Baipayl ? Nobinagar ? Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel ? Kamalapur
+See Full Route Map"
+11,Alif Bus Route (???? ???),"Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cenema Hall ? Mirpur 1 ? Mazar Road ? Konabari ? Rupnagar ? Beribadh ? Birulia ? Ashulia ? Zirabo ? Fantasy Kingdom ? Nandan Park
+See Full Route Map"
+12,Alif Bus Route (???? ???),"Shia Mosque ? Japan Garden City ? Adabor ? Shyamoli ? Shishu Mela ? Agargaon ? Zia Uddyan ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda Link Road ? Madhya Badda ? Merul ? Rampura Bridge ? Banasree
+See Full Route Map"
+13,Alif Bus Route (???? ???),"Mirpur 1 ? Mirpur 2 ? Mirpur 10 ? Kazipara ? Shewrapara ? Agargaon ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda Link Road ? Madhya Badda ? Merul ? Rampura Bridge ? Banasree
+See Full Route Map"
+14,Alif Bus Route (???? ???),"Japan Garden City ? Ring Road ? Adabor ? Shyamoli ? Shishu Mela ? Agargaon ? Zia Uddyan ? Bijoy Sarani ? Old Airport ? Jahangir Gate ? Mohakhali ? Chairman Bari ? Sainik Club ? kakali ? Banani ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+15,Anabil Super Bus Route (?????? ?????),"Sign Board ? Shonir Akhra ? Jatrabari ? Sayedabad ? Mugdapara ? Bashabo ? Khilgaon ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Shahjadpur ? Bashtola -? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Bypass ? Gazipur Chourasta
+See Full Route Map"
+16,Arnob Bus Route (???? ???),"Hemayetpur – Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? Agargaon ? Zia Uddyan ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda Link Road ? Madhya Badda ? Merul ? Rampura Bridge ? Banasree ? Demra Staff Quarter
+See Full Route Map"
+17,Ashirbad Pahibahan Bus Route (???????? ??????),"Duaripara ? Rupnagar Abashik ? Shiyal Bari ? Proshika Moor ? Mirpur 2 ? Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Dhanmondi 27 ? Shukrabad ? Dhanmondi 32 ? Kalabagan ? City College ? New Market ? Nilkhet ? Azimpur
+See Full Route Map"
+18,Ashulia Classic Bus Route (??????? ??????? ???),"Nobinagar ? Baipayl ? Jamgora ? Fantasy Kingdom ? Zirabo ? Ashulia Bazar ? Kamarpara ? Abdullahpur ? House Building ? Azampur ? Rajlakshmi ? Jashimuddin (Uttara) ? Airport ? Khilkhet ? Kuril Bishwa Road ? Shewra ? MES ? Kakali ? Banani ? Chairman Bari ? Mohakhali ? Nabisco ? Sat rasta
+See Full Route Map"
+19,Asmani Bus Route (?????? ???),"Dhour ? Abdullahpur ? House Building ? Azampur ? Rajlakshmi ? Jashimuddin (Uttara) ? Airport ? Khilkhet ? Kuril Bishwa Road ? Jamuna Future Park ? Bashundhara ? Nadda ? Notun Bazar ? Bashtola ? Shahjadpur ? Uttar Badda ? Badda ? Madhya Badda ? Merul ? Rampura Bridge ? Banasree ? Demra Staff Quarter ? Tarabo ? Madanpur
+See Full Route Map"
+20,ATCL Bus Route (??????? ???),"Mohammadpur Bus Stand ? Asad Gate ? Shukrabad ? Kalabagan City College ? Science Lab – Katabon ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Arambagh Notre Dame College
+See Full Route Map"
+21,Ayat Bus Route (???? ???),"Chiriyakhana ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Mogbazar ? Mouchak ? Malibagh Moor ? Rajarbag ? Kamalapur
+See Full Route Map"
+22,Bahon Bus Route (???? ???),"Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Mirpur 1 ? Ansar Camp ? Bangla College ? Technical ? Darussalam ? Kallyanpur ? Shyamoli ? Asad Gate ? Dhanmondi 27 ? Dhanmondi 32 Kalabagan ? Science Lab ? Katabon ? Shahbag ? High Court ? Press Club ? Paltan ? Dainik Bangla Moor ? Motijheel ? Arambagh ? Kamlapur – Mugdapara ? Bashabo ? Khilgaon
+See Full Route Map"
+23,Baishakhi Bus Route (?????? ???),"Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? Agargaon ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Gulshan 1 ? Badda Link Road ? Bashtola ? Uttar Badda ? Notun Bazar
+See Full Route Map"
+24,Balaka Bus Route (????? ???),"Sayedabad ? Manik Nagar ? TT Para – Kamalapur ? Malibagh Moor ? Mouchak ? Mogbazar ? Satrasta ? Nabisco ? Mohakhali ? Chairman Bari ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Bypass ? Gazipur Chourasta
+See Full Route Map"
+25,Basumati Bus Route (??????? ???),"Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Manik Mia Avenue ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Golap Shah Mazar ? Naya Bazar ? Babubazar ? Keraniganj ? Maowa
+See Full Route Map"
+26,Basumati Transport Bus Route (??????? ????????????),"Gabtoli – Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Chourasta
+See Full Route Map"
+27,Best Satabdi AC Bus Route (????? ??????? ??? ???),"Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Khamar Bari ? Farmgate ? Jahangir Gate ? Mohakhali ? Chairman Bari ? Sainik Club ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Diabari
+See Full Route Map"
+28,Best Transport Bus Route (????? ???????????? ???),"Mirpur 10 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel ? Ittefaq Moor ? Sayedabad ? Jatrabari
+See Full Route Map"
+29,Bhuiyan Paribahan Bus Route (?????? ??????),"Japan Garden City ? Ring Road ? Adabor ? Shyamoli ? Shishu Mela ? Agargaon ? Zia Uddyan ? Bijoy Sarani ? Old Airport ? Jahangir Gate ? Mohakhali ? Chairman Bari ? Sainik Club ? Kakali ? Banani ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+30,Bihanga Bus Route (???????? ???),"Mirpur 12 ? Mirpur 11 ? Mirpur 10 ? Kazipara ? Shewrapara ? Agargaon ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan Bridge ? Gulshan 1 ? Badda ? Notun Bazar
+See Full Route Map"
+31,Bikalpa Bus Auto Service (?????? ??? ??? ???????),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 11 ? Mirpur 1 ? Kazipara ? Shewrapara – Taltola – Agargaon – Bijoy Sarani – Farmgate – Kawran Bazar ? Bangla Motor ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel
+See Full Route Map"
+32,Bikalpa Bus City Super Service (?????? ??? ???? ????? ???????),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 11 ? Mirpur 10 ? Kazipara ? Shewrapara – Taltola ? Agargaon ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Dhanmondi 27 ? Dhanmondi 32 ? Kalabagan ? City College ? New Market ? Nilkhet ? Azimpur – Dhakeshwari
+See Full Route Map"
+33,Bikash Bus Route (????? ???),"Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 27 ? Dhanmondi 32 ? Khamar Bari ? Farmgate ? Jahangir Gate ? Mohakhali ? Sainik Club ? Banani ? Kakali ? Kuril Bishwa Road ? Khilkhet ? Airport ? Abdullahpur ? Kamarpara
+See Full Route Map"
+34,Bikash Paribahan Bus Route (????? ?????? ???),"Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Khamar Bari ? Farmgate ? Jahangir Gate ? Mohakhali ? Chairman Bari ? Sainik Club ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Kamarpara – Dhour
+See Full Route Map"
+35,Bondhu Paribahan Bus Route (????? ?????? ???),"Gulistan ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Shahjadpur ? Bashtola ? Notun Bazar
+See Full Route Map"
+36,Borak Bus Route (????? ???),"Palashi ? Meghna Ghat
+See Full Route Map"
+37,Bashumoti Bus Route (?????? ???),"Gazipur Chourasta ? Tongi ? Airport ? Khilkhet ? Kalshi Pallabi ? Mirpur 11 ? Mirpur 10 ? Mirpur 1 ? Gabtoli
+See Full Route Map"
+38,Brihottor Mirpur Bus Route (??????? ?????? ???),"Chiriyakhana ? Mirpur 1 ? Gabtoli ? Amin Bazar ? Savar ? Nobinagar Chandra
+See Full Route Map"
+39,BRTC Bus Route (?? ?? ???? ???),"Madanpur ? Kanchpur ? Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Khamar Bari ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar
+See Full Route Map"
+40,BRTC Bus Route (?? ?? ???? ???),"Motijheel ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Jahangir Gate ? Mohakhali ? Chairman Bari ? Kakali ? Banani ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi
+See Full Route Map"
+41,BRTC Bus Route (?? ?? ???? ???),"Motijheel ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Khamar Bari – Asad Gate – College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Baipayl ? Zirani Bazar ? Chandra
+See Full Route Map"
+42,BRTC Bus Route (?? ?? ???? ???),"Mohammadpur ? Asad Gate ? Khamar Bari -? Farmgate ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda Link Road ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road
+See Full Route Map"
+43,BRTC Bus Route (?? ?? ???? ???),"Kamalapur ? Motijheel ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda Link Road ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road
+See Full Route Map"
+44,BRTC Bus Route (?? ?? ???? ???),"Vulta ? Kanchan Bridge ? Nila Market ? 300 Feet ? Bashundhara (300 Feet Gate) ? Kuril Bishwa Road
+See Full Route Map"
+45,BRTC Bus Route (?? ?? ???? ???),"Motijheel ? Gulistan ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+46,BRTC Bus Route (?? ?? ???? ???),"Mohammadpur ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel
+See Full Route Map"
+47,BRTC Bus Route (?? ?? ???? ???),"Gabtoli ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Mill Gate ? Board Bazar ? Gazipur Bypass ? Gazipur Chourasta
+See Full Route Map"
+48,BRTC Articulated Bus Route (?? ?? ???? ??????????? ???),"Balughat ? Cantonment ? Bijoy Sarani ? Farmgate ? Bangla Motor ? Shahbag ? Paltan ? Gulistan ? Motijheel
+See Full Route Map"
+49,Lams Paribahan Bus Route (???? ?????? ???),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 11 ? Mirpur 1 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Bijoy Sarani ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? Dainik Bangla Moor ? Motijheel
+See Full Route Map"
+50,Labbayek Bus Route (???????? ???),"Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Mogbazar ? Mouchak ? Malibagh Moor ? Rajarbag ? Khilgaon Flyover ? Bashabo ? Mugdapara ? Manik Nagar ? Golapbag Chourasta ? Sayedabad ? Janapath Moor ? Jatrabari ? Kazla ? Shonir Akhra ? Rayerbag ? Matuail ? Sign Board
+See Full Route Map"
+51,Lal Sabuj (AC) Bus Route (??? ???? ??? ???),"Nandan Park ? Zirani Bazar ? Baipayl ? Nobinagar ? Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel
+See Full Route Map"
+52,Malancha Bus Route (?????? ???),"Mohammadpur ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Dayaganj ? Dhupkhola
+See Full Route Map"
+53,Manjil Express Bus Route (??????? ????????? ???),"Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? GPO ? Paltan ? Kakrail ? Malibagh Moor ? Mouchak ? Mogbazar ? Satrasta ? Nabisco ? Mohakhali ? Chairman Bari ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+54,Meghla Transport Bus Route (????? ???????????? ???),"Kalabagan ? Science Lab ? Katabon ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Sayedabad ? Jatrabari ? Shonir Akhra ? Sign Board ? Kanchpur ? Vulta
+See Full Route Map"
+55,Meshkat Bus Route (?????? ???),"Mohammadpur ? Asad Gate ? Khamar Bari ? Farmgate ? Bangla Motor ? Shahbag ? Matsya Bhaban ? Paltan ? Dainik Bangla Moor ? Motijheel ? Ittefaq Moor Sayedabad ? Jatrabari ? Shanir Akhra ? Rayerbag ? Matuail ? Sign Board ? Chittagong Road
+See Full Route Map"
+56,Midline Bus Route (??????? ???),"Mohammadpur ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? Gulistan ? Motijheel ? Arambagh ? Kamalapur ? Bashabo ? Khilgaon
+See Full Route Map"
+57,Mirpur Metro Services Bus Route (?????? ?????? ??????? ???),"Azimpur ? Nilkhet ? New Market ? Science Lab ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Bangla College ? Tolarbag ? Ansar Camp ? Mirpur 1
+See Full Route Map"
+58,Mirpur Link Bus Route (?????? ???? ???),"ECB Square ? Purobi ? Mirpur 11 ? Mirpur 10 ? Kazipara Shewrapara ? Agargaon ? Khamar Bari ? Dhanmondi 27 ? Dhanmondi 32 ? City College ? New Market Nilkhet ? Azimpur
+See Full Route Map"
+59,Mirpur Mission Bus Route (?????? ???? ???),"Chiriyakhana ? Mirpur 1 ? Khamar Bari ? Farmgate ? Press Club ? Motijheel
+See Full Route Map"
+60,Mirpur Transport Service Bus Route (?????? ???????????? ??????? ???),"Gulistan ? Golap Shah Mazar ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Khamar Bari ? Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi ? Pallabi ? Mirpur 12
+See Full Route Map"
+61,Mirpur United Service Bus Route (?????? ???????? ??????? ???),"Sadarghat ?- Ray Saheb Bazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Khamar Bari ? Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi ? Pallabi ? Mirpur 12
+See Full Route Map"
+62,MM Lovely Bus Route (?? ?? ????? ???),"Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical -? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Mogbazar ? Mouchak ? Malibagh Moor ? Rajarbag ? Khilgaon Flyover ? Bashabo ? Mugdapara ? Manik Nagar ? Golapbag Chourasta ? Sayedabad ? Janapath Moor ? Jatrabari ? Kazla ? Shonir Akhra ? Rayerbag ? Matuail ? Sign Board
+See Full Route Map"
+63,Modhumita  Bus Route (??????? ???),"Chiriyakhana ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? Agargaon ? Bijoy Sarani ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda Link Road ? Merul ? Rampura Bridge ? Banasree ? Demra Staff Quarter
+See Full Route Map"
+64,Mohona Bus Route (????? ???),"Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cinema Hall ? Mirpur 1 ? Mazar Road ? Konabari ? Rupnagar ? Beribadh ? Birulia ? Ashulia ? Zirabo ? Fantasy Kingdom
+See Full Route Map"
+65,Moitri Bus Route (?????? ???),"Mohammadpur ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel ? Arambagh
+See Full Route Map"
+66,Moumita Bus Route (?????? ???),"Chashara ? Shibu Market ? Jalkuri ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Azimpur – Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Baipayl ? Zirani Bazar ? Nandan Park ? Chandra
+See Full Route Map"
+67,MTCL-2 Bus Route (???????? ? ???),"Mohammadpur ? Asad Gate ? Dhanmondi 27 ? Dhanmondi 32 ? Shukrabad ? Kalabagan ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban – High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel ? Arambagh Kingdom
+See Full Route Map"
+68,Nabakali Bus Route Dhaka (?????? ???),"Chiriyakhana ? Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Dhanmondi 27 ? Shukrabad ? Dhanmondi 32 ? Kalabagan ? Science Lab ? Katabon ? Shahbag ? High Court ? Fulbaria ? Naya Bazar ? Babubazar ? Keraniganj
+See Full Route Map"
+69,New Vision Bus Route Dhaka (??? ???? ???),"Chiriyakhana ? Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? Dainik Bangla Moor ? Motijheel
+See Full Route Map"
+70,Nilachol Bus Route Dhaka (?????? ???),"Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Nobinagar ? Manikganj ? Paturia
+See Full Route Map"
+71,Nishorgo Bus Route Dhaka (?????? ???),"Mirpur 14 Bus Stand ? Mirpur 10 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Asad Gate ? Shyamoli ? Mohammadpur ? Shankar ? Dhanmondi 15 ? Jigatola ? Science Lab ? Dhaka College ? New Market ? Nilkhet ? Eden College ? Azimpur
+See Full Route Map"
+72,"Nur E Makka Bus Route
+(??? ? ????? ???)","Chiriyakhana ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Jamuna Future Park ? Bashundhara ? Nadda ? Notun Bazar ? Bashtola ? Shahjadpur ? Uttar Badda ? Badda ? Madhya Badda ? Merul ? Rampura Bridge ? Rampura Bazar ? Hazipara ? Malibagh Railgate
+See Full Route Map"
+73,One Transport Bus Route  (???? ???????????? ???),"Nandan Park ? Zirani Bazar ? Baipayl ? Nobinagar ? Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel
+See Full Route Map"
+74,Omama International Bus Route (????? ?????????????? ???),"Motijheel ? Dainik Bangla Moor ? Paltan ? Press Club ? Matsya Bhaban ? High Court ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Jahangir Gate ? Mohakhali ? Chairman Bari ? Sainik Club ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport
+See Full Route Map"
+75,Pallabi Local Service Bus Route (?????? ????? ??????? ???),"Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Technical ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Chalantika Moor ? Mirpur 6 ? Mirpur 11 ? Mirpur 12
+See Full Route Map"
+76,Pallabi Super Bus Route  (?????? ????? ???),"Gabtoli ? Technical ? Ansar Camp ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Kamarpara
+See Full Route Map"
+77,Paristhan Bus Route (???????? ???),"Bosila ? Mohammadpur ? Asad Gate ? College Gate ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Bangla College ? Tolarbag ? Ansar Camp ? Mirpur 1 ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? House Building ? Abdullahpur
+See Full Route Map"
+78,Power Paribahan Bus Route (?????? ?????? ???),"Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cinema Hall ? Mirpur 1 ? Mazar Road ? Konabari ? Rupnagar ? Beribadh ? Birulia ? Ashulia ? Zirabo ? Narshinghapur ? Sura Bari ? Kashimpur ? Jarun ? Konabari
+See Full Route Map"
+79,Prattay Bus Route (??????? ???),"Gabtoli ? Beribadh Tin Rastar Moor ? Rayer Bazar ? Sikder Medical College ? Hazaribag ? Nawabganj ? Kamrangirchar ? Showari Ghat ? Mitford Ghat ? Babubazar
+See Full Route Map"
+80,Prochesta Bus Route (????????? ???),"Maowa ? Keraniganj ? Babubazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+81,Projapati Bus Route (???????? ???),"Bosila ? Mohammadpur ? Asad Gate ? College Gate ? Shyamoli ? Kallyanpur – Darussalam ? Technical ? Bangla College ? Ansar Camp ? Mirpur 1 ? Mirpur 2 Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril  Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? House Building ? Abdullahpur ? Kamarpara
+See Full Route Map"
+82,Provati Banasree Bus Route (??????? ?????? ???),"Fulbaria ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mogbazar ? Satrasta ? Nabisco ? Mohakhali ? Chairman Bari ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Chourasta ? Joydebpur ? Sreepur ? Baromi
+See Full Route Map"
+83,Purbachol Logistics and Transport Bus Route (???????? ????????? ???),"Vashantek ? Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cinema Hall ? Mirpur 1 ? Ansar Camp ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Baipayl ? Zirani Bazar ? Nandan Park ? Chandra
+See Full Route Map"
+84,Raida Bus Route Dhaka (????? ???),"Postagola ? Dholairpar ? Jatrabari ? Janapath Moor ? Sayedabad ? Mugdapara ? Bashabo ? Khilgaon ? Malibagh Railgate ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Chourasta ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Dia Bari
+See Full Route Map"
+85,Raja City Bus Route Dhaka (???? ???? ???),"Postagola ? Jurain ? Dayaganj ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Shahbag ? Bata Signal ? Science Lab ? City College ? Jigatola ? Dhanmondi 15 ? Star Kabab ? Shankar ? Mohammadpur ? Bosila ? Ghatar Char
+See Full Route Map"
+86,Rajanigandha Bus Route Dhaka (????????? ???),"Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari -? Sayedabad ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Shahbag ? Bata Signal ? Science Lab ? Jigatola ? Dhanmondi 15 ? Star Kabab ? Shankar ? Mohammadpur
+See Full Route Map"
+87,Rajdhani Super Bus Route Dhaka (??????? ???),"Hemayetpur ? Gabtoli ? Technical ? Ansar Camp ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Jamuna Future Park ? Bashundhara ? Nadda ? Notun Bazar ? Bashtola ? Shahjadpur ? Uttar Badda ? Badda ? Madhya Badda ? Merul ? Rampura Bridge ? Banasree ? Demra Staff Quarter
+See Full Route Map"
+88,Ramjan Bus Route Dhaka (????? ???),"Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Mohammadpur ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Banasree ? Demra Staff Quarter
+See Full Route Map"
+89,Robrob Bus Route Dhaka ( ???? ???),"Gabtoli ? Technical ? Ansar Camp ? Mirpur 1 ? Mirpur 2 ? Mirpur 10 ? Purobi ? Kalshi ? ECB Square ? MES ? Banani ? Kakali ? Gulshan 2 ? Gulshan 1 ? Badda Link Road ? Merul ? Rampura Bridge ? Banasree
+See Full Route Map"
+90,Rois Bus Route Dhaka (???? ???),"Mirpur Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Kazipara ? Shewrapara ? Agargaon ? Mohakhali ? Gulshan 1 ? Badda ? Rampura Bridge ? Banasree
+See Full Route Map"
+91,Rongdhonu Express Bus Route Dhaka (????? ????????? ???),"Adabor ? Mohammadpur ? Shia Mosque ? Shyamoli ? College Gate ? Asad Gate ? Kalabagan ? Science Lab ? Katabon ? Bata Signal ? Shahbag ? Kakrail ? Fakirapul ? Motijheel ? Dayaganj ? Postagola
+See Full Route Map"
+92,Runway Express Bus Route Dhaka (?????? ????????? ???),"Keraniganj ? Kadamtali ? Babubazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Agargaon ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Mirpur 12 ? ECB Square
+See Full Route Map"
+93,Rupa Paribahan Bus Route Dhaka (???? ?????? ???),"Gabtoli ? Technical ? Ansar Camp ? Mirpur 1 ? Sony CInema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 14 ? Vashantek
+See Full Route Map"
+94,Rupkotha Bus Route Dhaka (?????? ???),"Gabtoli ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+95,Safety Druti Bus Route (????? ?????? ???),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 11 ? Mirpur 10 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Khamar Bari ? Dhanmondi 27 ? Dhanmondi 32 ? Kalabagan ? City College ? New Market ? Nilkhet ? Azimpur
+See Full Route Map"
+96,Sakalpa Transport Bus Route (??????? ???????????? ???),"Chiriyakhana ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Kazipara ? Shewrapara ? Agargaon ? Bijoy Sarani ? Farmgate ? Bangla Motor ? Mogbazar ? Malibagh Moor ? Kamalapur
+See Full Route Map"
+97,Salsabil Bus Route (???????? ???),"Postagola ? Dholairpar ? Jatrabari ? Sayedabad ? Mugdapara ? Bashabo ? Khilgaon ? Malibagh Railgate ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Chourasta ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Bypass ? Gazipur Chourasta
+See Full Route Map"
+98,Savar Paribahan Bus Route (????? ?????? ???),"Sadarghat ? Golap Shah Mazar ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Science Lab ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Baipayl ? Zirani Bazar ? Nandan Park
+See Full Route Map"
+99,Shadhin Bus Route (??????? ???),"Bosila ? Mohammadpur ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Mogbazar ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Banasree ? Demra Staff Quarter
+See Full Route Map"
+100,Shadhin Express Bus Route (??????? ????????? ???),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 11 ? Mirpur 10 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Golap Shah Mazar ? Naya Bazar ? Babubazar ? Keraniganj ? Kadamtali ? Rajendrapur ? Maowa
+See Full Route Map"
+101,Shahria Enterprise Bus Route (??????? ???????????? ???),"Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Dhanmondi 27 ? Dhanmondi 32 ? Shukrabad ? Kalabagan ? City College ? Science Lab ? Katabon ? Shahbag ? Matsya Bhaban ? Kakrail ? Fakirapul ? Arambagh ? Motijheel ? Ittefaq Moor ? Tikatuli ? Dayaganj ? Gandaria ? Jurain ? Postagola
+See Full Route Map"
+102,Shatabdi Bus Route (??????? ???),"Motijheel ? Paltan ? Kakrail ? Malibagh Moor ? Mouchak ? Mogbazar ? Satrasta ? Nabisco ? Mohakhali ? Chairman Bari ? Banani ? Kakali ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Kamarpara
+See Full Route Map"
+103,Shikhor Paribahan Bus Route (???? ?????? ???),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 11 ? Mirpur 10 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Bijoy Sarani ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Janapath Moor ? Jatrabari
+See Full Route Map"
+104,Shikhor Paribahan Bus Route (???? ?????? ???),"Jatrabari ? Sayedabad ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Bijoy Sarani ? Agargaon ? IDB ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Pallabi ? Purobi ? Mirpur 12
+See Full Route Map"
+105,Suveccha Bus Route (???????? ???),"Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Dhakeshwari ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Nobinagar ? Baipayl ? Zirani Bazar ? Nandan Park ? Chandra
+See Full Route Map"
+106,Suvojatri Bus (?????????  ???),"Fulbaria ? Golap Shah Mazar ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bata Signal ? Science Lab ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Manikganj
+See Full Route Map"
+107,Siam Transport Bus Route (????? ???????????? ???),"Banasree ? Rampura Bridge ? Merul ? Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Kamarpara ? Dhour ? Beribadh ? Ashulia ? Zirabo ? Fantasy Kingdom ? Jamgora ? Shimultola ? Baipayl ? Palli Bidyut ? Savar Cantonment ? Nobinagar
+See Full Route Map"
+108,Skyline Bus Route (????? ???? ???),"Sadarghat ? Ray Saheb Bazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Nabisco ? Mohakhali ? Chairman Bari ? Sainik Club ? Banani ? Kakali ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Chourasta
+See Full Route Map"
+109,Somota Paribahan Bus Route (???? ?????? ???),"Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Dhakeshwari ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Ansar Camp ? Mirpur 1 ? Rainkhola ? Chiriyakhana
+See Full Route Map"
+110,Somoy Bus Route (??? ???),"Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad Janapath Moor ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Bijoy Sarani ? Agargaon ? IDB ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Pallabi ? Purobi ? Mirpur 12
+See Full Route Map"
+111,Somoy Niyantran Bus Route (???? ????????? ???),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 11 ? Mirpur 10 ? Kazipara ? Shewrapara ? Taltola ? Agargaon ? Bijoy Sarani ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Golap Shah Mazar ? Naya Bazar ? Babubazar ? Keraniganj
+See Full Route Map"
+112,Super Bus Route (????? ???),"Gulistan ? Shahbag ? Farmgate ? Shyamoli ? Gabtoli ? Savar ? Nobinagar
+See Full Route Map"
+113,Supravat Bus Route (???????? ???),"Victoria Park ? Sadarghat ? Ray Saheb Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi
+See Full Route Map"
+114,Swajan Paribahan Bus Route (????? ?????? ???),"Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Golap Shah Mazar ? Naya Bazar ? Ray Saheb Bazar ? Sadarghat
+See Full Route Map"
+115,Talukdar Bus Route (???????? ???),"Chiriyakhana ? Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Mogbazar ? Mouchak ? Malibagh Moor ? Rajarbag ? Khilgaon Flyover ? Bashabo ? Mugdapara ? Manik Nagar ? Golapbag Chourasta ? Sayedabad ? Janapath Moor ? Jatrabari ? Kazla ? Shonir Akhra ? Rayerbag ? Matuail ? Sign Board ? Sanarpar ? Chittagong Road
+See Full Route Map"
+116,Tanjil Paribahan Bus Route (?????? ?????? ???),"Chiriyakhana ? Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Golap Shah Mazar ? Naya Bazar ? Ray Saheb Bazar ? Sadarghat
+See Full Route Map"
+117,Taranga Plus Bus Route (????? ????? ???),"Mohammadpur Bus Stand ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Banasree ? South Banasree
+See Full Route Map"
+118,Tetulia Bus Route (???????? ???),"Shia Mosque ? Japan Garden City ? Ring road ? Adabor Shyamoli ? Shishu Mela ? Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi ? Pallabi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? House Building ? Abdullahpur
+See Full Route Map"
+119,Thikana Bus Route (?????? ???),"Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Dhakeshwari ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Baipayl ? Zirani Bazar ? Nandan Park ? Chandra
+See Full Route Map"
+120,Thikana Express Bus Route (?????? ????????? ???),"Shonbari Sreenagar ? Nimtola ? Kuchimura ? Rajendrapur ? Hasnabad ? Postagola ? Jurain ? Dholairpar ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Baipayl ? Zirani Bazar ? Nandan Park ? Chandra
+See Full Route Map"
+121,Titas Bus Route (????? ???),"Chiriyakhana ? Mirpur 1 ? Gabtoli ? Savar ? Nobinagar Chandra
+See Full Route Map"
+122,Transilva Bus Route (???????????? ???),"Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Dhanmondi 27 ? Dhanmondi 32 ? Kalabagan ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club  Paltan ? GPO ? Gulistan ? Motijheel ? Sayedabad ? Janapath Moor ? Jatrabari
+See Full Route Map"
+123,Trust Transport Services Bus Route (??????? ???????????? ???),"Mirpur 10 ? Mirpur 13 ? Mirpur 14 ? Kachukhet ? Sainik Club ? Banani
+See Full Route Map"
+124,Trust Transport Services Bus Route (??????? ???????????? ???),"Mirpur 10 ? Mirpur 13 ? Mirpur 14 ? Kachukhet ? Workshop ? Saudi Colony ? Jahangir Gate ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag
+See Full Route Map"
+125,Trust Transport Services Bus Route (??????? ???????????? ???),"Mirpur DOHS ? Kalshi ? ECB Square ? Garrison (Cantonment) ? Adamjee School ? Workshop ? Saudi Colony ? Jahangir Gate ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? Dainik Bangla Moor ? Motijheel
+See Full Route Map"
+126,Trust Transport Services (AC)  Bus Route (??????? ???????????? ???),"Mirpur DOHS ? Kalshi ? ECB Square ? Garrison (Cantonment) ? Adamjee School ? Workshop ? Saudi Colony ? Jahangir Gate ? Farmgate ? Kawran Bazar
+See Full Route Map"
+127,Turag Bus Route (??????? ???????????? ???),"Jatrabari ? Sayedabad ? Mugdapara ? Bashabo ? Khilgaon ? Malibagh Moor ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Chourasta ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi
+See Full Route Map"
+128,VIP 27 Bus Route (?????? ?? ???),"Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Banani ? Kakali ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Chourasta
+See Full Route Map"
+129,Victor Classic Bus Route (?????? ??????? ???),"Sadarghat ? Ray Saheb Bazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Diabari
+See Full Route Map"
+130,Victor Paribahan Bus Route (?????? ?????? ???),"Sadarghat ? Ray Saheb Bazar ? Naya Bazar ? Golap Shah Mazar ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road
+See Full Route Map"
+131,Winner Bus Route (????? ???),"Azimpur ? Eden College ? Nilkhet ? New Market ? Science Lab ? City College ? Kalabagan ? Panthapath ? Kawran Bazar ? Bot tola ? Nabisco ? Mohakhali ? Wireless ? Gulshan 1 ? Badda ? Badda Link Road ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road
+See Full Route Map"
+132,Welcome Bus Route (??????? ???),"Nandan Park ? Zirani Bazar ? Baipayl ? Nobinagar ? Savar ? Hemayetpur ? Amin Bazar ? Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel
+See Full Route Map"
+133,Cantonment Bus Route (????????????? ??? ???????),"Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cinema Hall ? Mirpur 1 ? Ansar Camp ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar
+See Full Route Map"
+134,Cantonment Mini Service Bus Route (?????????????  ???? ??? ???????),"Mirpur 14 ? Kachukhet ? Sainik Club ? Kakali ? Banani ? Mohakhali
+See Full Route Map"
+135,Champion Bus Route (?????????? ???),"Vashantek ? Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cenema Hall ? Mirpur 1 ? Ansar Camp ? Technical ? Gabtoli
+See Full Route Map"
+136,City Link Bus Route (???? ???? ???),"Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bata Signal ? Science Lab ? City College ? Jigatola ? Dhanmondi 15 ? Star Kabab ? Shankar ? Mohammadpur ? Bosila ? Ghatar Char
+See Full Route Map"
+137,13 No. Bus Route Dhaka (???? ???),"Mohammadpur ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? New Market ? Nilkhet ? Azimpur
+See Full Route Map"
+138,4 No. Alike Bus Route Dhaka (??? ???),"Balughat ? Signal ? CMH ? Garrison (Cantonment) ? Adamjee College ? Workshop ? Jahangir Gate ? Bijoy Sarani ? Farmgate ? Bangla Motor ? Shahbag ? Paltan ? Gulistan ? Motijheel
+See Full Route Map"
+139,6 No. Bus Route Dhaka (??? ???),"Kamalapur ? Motijheel ? Gulistan ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Mogbazar ? Kawran Bazar ? Farmgate ? Jahangir Gate ? Bijoy Sarani ? Mohakhali ? Gulshan 1 ? Gulshan 2 ? Notun Bazar
+See Full Route Map"
+140,6 No. Motijheel Banani Transport Bus Route Dhaka (??? ?????? ????? ???????????? ???),"Kamalapur ? Motijheel ? Gulistan ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Mogbazar ? Kawran Bazar ? Farmgate ? Jahangir Gate ? Bijoy Sarani ? Mohakhali ? Gulshan 1 ? Gulshan 2 ? Notun Bazar
+See Full Route Map"
+141,7 No. Bus Route Dhaka (??? ???),"Gabtoli ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Dhanmondi 27 ? Dhanmondi 32 ? Kalabagan ? Science Lab ? Katabon ? Shahbag ? High Court ? Press Club ? Paltan ? GPO ? Golap Shah Mazar ? Gulistan ? Naya Bazar ? Ray Saheb Bazar ? Sadarghat
+See Full Route Map"
+142,8 No. Bus Route Dhaka (??? ???),"Jatrabari ? Janapath Moor ? Sayedabad ? Motijheel ? Dainik Bangla Moor ? Paltan ? Press Club ? Matsya Bhaban ? High Court ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Khamar Bari ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Technical ? Gabtoli
+See Full Route Map"
+143,9 No. Bus Route Dhaka (??? ???),"College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Bangla College ? Tolarbag ? Ansar Camp ? Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Proshika Moor ? Pallabi ? Mirpur 12
+See Full Route Map"
+144,D Link Bus Route (?? ???? ???),"Fulbaria ? Chankhar Pul ? Bakshi Bazar ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Dhamra
+See Full Route Map"
+145,D One Transport Bus Route (?? ???? ???),"Motijheel ? Dainik Bangla Moor ? Paltan ? Press Club ? Matsya Bhaban ? High Court ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Technical ? Gabtoli ? Amin Bazar ? Nobinagar ? Dhamrai ? Kalampur
+See Full Route Map"
+146,Deepan Bus Route (????? ???),"Tajmahal Road ? Shankar ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Shahbag ? Matsya Bhaban ? Paltan ? Gulistan ? Motijheel ? Arambagh
+See Full Route Map"
+147,Desh Bangla Bus Route (??? ????? ???),"Postagola ? Dholairpar ? Jatrabari ? Sayedabad ? Mugdapara ? Bashabo ? Khilgaon ? Malibagh ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Chourasta ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Kamarpara
+See Full Route Map"
+148,Dewan Bus Route (?????? ???),"Azimpur ? Eden College ? Nilkhet ? New Market ? Science Lab ? City College ? Science Lab ? Katabon ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Jahangir Gate ? Mohakhali ? Wireless ? Gulshan 1 ? Badda ? Badda Link Road ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road
+See Full Route Map"
+149,Dhakar Chaka Bus Route (????? ???? ???),"Police Plaza ? Gulshan 1 ? Gulshan 2
+See Full Route Map"
+150,Dhakar Chaka Bus Route (????? ???? ???),"Banani ? Gulshan 2 ? Notun Bazar
+See Full Route Map"
+151,Dhaka Metro Service Bus Route (????? ?????? ??????? ???),"Mirpur 1 ? Kallyanpur ? Shyamoli ? Asad Gate ? Shukrabad Kalabagan ? Science Lab ? New Market ? Nilkhet ? Azimpur
+See Full Route Map"
+152,Dhaka Paribahan Bus Route (???? ?????? ???),"Gulistan ? Shahbag ? Farmgate ? Banani ? Uttara ? Gazipur ? Shib Bari
+See Full Route Map"
+153,Dipon Bus Route (????? ???),"Tajmahal Road ? Salimullah Road ? Jakir Hossen Road ? Shankar ? Star Kabab ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? Baitul Mukarram ? Gulistan ? Motijheel ? Arambagh
+See Full Route Map"
+154,Dip Paribahan Bus Route (????? ?????? ???),"Azimpur ? City College ? Kolabagan ? Panthopoth ? Karwan Bazar ? Nabisco ? Gulshan Link Road ? Gulshan 1 ? Kuril Bissho Road
+See Full Route Map"
+155,Dishari Bus Route (?????? ???),"Chiriyakhana ? Mirpur 1 ? Ansar Camp ? Technical ? Kallyanpur ? Shyamoli ? Shishu Mela ? College Gate ? Asad Gate ? Khamar Bari ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Golap Shah Mazar ? Naya Bazar ? Babubazar ? Keraniganj
+See Full Route Map"
+156,Elite Bus Route (???? ???),"Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi ? Pallabi ? Kalshi ? Kuril Bishwa Road ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi House Building ? Abdullahpur
+See Full Route Map"
+157,ETC Bus Route (????? ???),"Golap Shah Mazar ? Shahbag ? Bangla Motor ? Farmgate ? Agargaon ? Shewrapara ? Kazipara ? Mirpur 10 ? Pallabi ? Mirpur 12
+See Full Route Map"
+158,Everest Paribahan Bus Route (???????? ?????? ???),"Rupnagar Abashik ? Mirpur 2 ? Mirpur 1 ? Khamar Bari Farmgate ? Gulistan ? Keraniganj
+See Full Route Map"
+159,ETC Transport Bus Route (????? ???????????? ???),"Golap Shah Mazar ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Khamar Bari ? Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi ? Pallabi ? Mirpur 12
+See Full Route Map"
+160,Falgun Art Transport Private Limited Bus Route (??????? ???? ???????????? ???????? ??????? ???),"Azimpur ? Nilkhet ? New Market ? Science Lab ? Bata Signal ? Katabon ? Shahbag ? Motso Vobon ? Kakrail ? Shantinagar ? Malibagg Mor ? Mouchak ? Malibagh Rail Gate ? Rampura Bazar ? Rampura Bridge ? Merul ? Madhya Badda ? Badda ? Shahjadpur ? Natun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bissho Road ? Khilkhet ? Airport ? Rajlakshmi ? Uttara House Building
+See Full Route Map"
+161,First Ten Bus Route (??????? ??? ???),"Vashantek ? Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cenema Hall ? Mirpur 1 ? Ansar Camp ? Technical ? Gabtoli
+See Full Route Map"
+162,FTCL Bus Route (???????? ???),"Mohammadpur ? Shankar ? Star Kabab ? Jigatola ? City College ? Science Lab ? Bata Signal ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Sayedabad ? Janapath Moor ? Jatrabari ? Shonir Akhra ? Rayerbag ? Matuail ? Sign Board ? Chittagong Road
+See Full Route Map"
+163,FTCL Bus Route (???????? ???),"Mohammadpur ? Shankar ? Dhanmondi 15 ? Jigatola ? City College ? Science Lab ? Shahbag ? Matsya Bhaban ? Paltan ? Gulistan ? Motijheel ? Arambagh
+See Full Route Map"
+164,Gazipur Paribahan Bus Route (??????? ?????? ???),"Motijheel ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Mogbazar ? Nabisco ? Mohakhali ? Chairman Bari ? Sainik Club ? Kakali ? Banani ? Staff Road ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Chourasta ? Shib Bari
+See Full Route Map"
+165,Grameen Bus Route (??????? ???),"Mirpur 14 ? Mirpur 10 ? Mirpur 2 ? Sony Cinema Hall ? Mirpur 1 ? Ansar Camp ? Technical ? Gabtoli
+See Full Route Map"
+166,Grameen Suveccha Bus Route (??????? ???????? ???),"Fulbaria ? Chankhar Pul ? Bakshi Bazar ? Azimpur ? Nilkhet ? New Market ? City College ? Kalabagan ? Dhanmondi 32 ? Dhanmondi 27 ? Asad Gate ? College Gate ? Shishu Mela ? Shyamoli ? Kallyanpur ? Darussalam ? Technical ? Gabtoli ? Amin Bazar ? Hemayetpur ? Savar ? Baipayl ? Zirani Bazar ? Nandan Park ? Chandra
+See Full Route Map"
+167,Green Anabil Bus Route (????? ?????? ???),"Chashara ? Shibu Market ? Jalkuri ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Mugdapara ? Bashabo ? Khilgaon ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi ? Station Road ? Mill Gate ? Board Bazar ? Gazipur Bypass ? Gazipur Chourasta
+See Full Route Map"
+168,Green Dhaka Bus Route (????? ???? ???),"Motijheel ? Gulistan ? GPO ? Paltan ? Kakrail ? Shantinagar ? Malibagh Moor ? Mouchak ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur
+See Full Route Map"
+169,Gulshan Chaka Bus Route (?????? ???? ???),"Banani ? Gulshan 2 ? Notun Bazar
+See Full Route Map"
+170,Hazi Transport Bus Route (???? ???????????? ???),"Mirpur 12 ? Pallabi ? Purobi ? Mirpur 10 ? Kazipara ? Shewrapara ? Agargaon ? Bijoy Sarani ? Farmgate ? Kawran Bazar ? Bangla Motor ? Shahbag ? Matsya Bhaban ? High Court ? Press Club ? Paltan ? GPO ? Gulistan ? Motijheel
+See Full Route Map"
+171,Himachal Bus Route (?????? ???),"Mirpur Sony Cinema Hall ? Mirpur 10 ? Kazipara ? Shewrapara ? Mohakhali ? Gulshan 1 ? Badda ? Rampura Bridge ? Rampura Bazar ? Khilgaon Khidma Hospital
+See Full Route Map"
+172,Himachal Suveccha Bus Route (?????? ???????? ???),"Metro Hall ? Chashara ? Shibu Market ? Jalkuri ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Janapath Moor ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate Bijoy Sarani ? Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi Pallabi ? Mirpur 12
+See Full Route Map"
+173,Himalay Bus Route (?????? ???),"Madanpur ? Jatrabari ? Bangladesh Bank ? Mogbazar Mohakhali ? Tongi
+See Full Route Map"
+174,J M Super Paribahan Bus Route (?? ?? ????? ?????? ???),"Jatrabari ? Sayedabad ? Mugdapara ? Bashabo ? Khilgaon ? Malibagh Railgate ? Hazipara ? Rampura Bazar ? Rampura Bridge ? Merul ? Badda ? Uttar Badda ? Shahjadpur ? Bashtola ? Notun Bazar ? Nadda ? Bashundhara ? Jamuna Future Park ? Kuril Bishwa Road ? Khilkhet ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdullahpur ? Tongi
+See Full Route Map"
+175,Janjabil Bus Route (???????? ???),"Gabtoli ? Beribadh Tin Rastar Moor ? Rayer Bazar ? Sikder Medical College ? Hazaribag ? Nawabganj ? Kamrangirchar ? Showari Ghat ? Mitford Ghat ? Babubazar
+See Full Route Map"
+176,Jabale Noor Paribahan Bus Route (?????? ??? ?????? ???),"Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi ? Pallabi ? Kalshi ? Kuril Bishwa Road ? Airport ? Jashimuddin (Uttara) ? Rajlakshmi House Building ? Abdullahpur
+See Full Route Map"
+177,Jabale Noor Paribahan Bus Route (?????? ??? ?????? ???),"Gabtoli ? Mirpur 1 ? Mirpur 10 ? Kalshi ? Kuril Flyover ? Notun Bazar
+See Full Route Map"
+178,Kamal Plus Paribahan Bus Route (????? ????? ?????? ???),"Chittagong Road ? Sign Board ? Matuail ? Rayerbag ? Shonir Akhra ? Jatrabari ? Sayedabad ? Gulistan ? Chankhar Pul ? Bakshi Bazar ? Azimpur ? Nilkhet ? New Market ? Science Lab ? City College ? Jigatola ? Dhanmondi 15 ? Star Kabab ? Shankar ? Mohammadpur ? Ghatar Char
+See Full Route Map"
+179,kanak Bus Route (??? ???),"Mirpur 1 ? Sony Cinema Hall ? Mirpur 2 ? Mirpur 10 ? Mirpur 11 ? Purobi ? Kalshi ? ECB Square ? MES ? Shewra ? Kuril Bishwa Road ? Khilkhet ? Airport Jashimuddin (Uttara) ? Rajlakshmi ? Azampur ? House Building ? Abdulla
+See Full Route Map"
+180,Khajababa Bus Route (???? ???? ???),"Jatrabari ? Sayedabad ? Gulistan ? GPO ? Paltan ? Press Club ? High Court ? Matsya Bhaban ? Shahbag ? Bangla Motor ? Kawran Bazar ? Farmgate ? Khamar Bari ? Agargaon ? Taltola ? Shewrapara ? Kazipara ? Mirpur 10 ? Mirpur 11 ? Purobi ? Pallabi ? Mirpur 12
+See Full Route Map"
+181,Kironmala Paribahan Bus Route (???????? ???),"Chiriyakhana ? Mirpur 1 ? Sony Cinema Hall ? Rupnagar ? Birulia ? Ashulia ? Zirabo ? Narshinghapur ? Sura Bari ? Kashimpur ? Jarun ? Konabari
+See Full Route Map"

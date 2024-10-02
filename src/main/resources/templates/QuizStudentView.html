@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Quiz.css">
+    <title>Quiz Generator</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="nav-wrapper teal lighten-2 class">
+            <a href="#" class="brand-logo center">Quiz Generator</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container" id="container">
+
+        <form id="quiz" th:action="@{/processQuizStudent/{id} (id = ${quiz.getId()})}" th:if="${quizQ.getAnswerType()}=='speech'">
+            <h5 id="qTitle" th:text="${quizQ.getQuestion()}"></h5>
+
+            <div class="row">
+                <div class="input-field col m6 s12">
+                    <input placeholder="Answer" name="answerByStd" id="stt" type="text"  class="validate">
+                    <label for="stt">Speak your answer</label>
+                </div>
+                <div class="col m6 s12">
+                    <i class="fa fa-microphone"  onClick="GetSpeech()" style="font-size: 20px; cursor: pointer;"  aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <button type="submit" id="submitAnswer" class="waves-effect waves-light btn-small">Next Question</button>
+            <script th:src="@{/stt.js}"></script>
+        </form>
+
+
+        <form  th:action="@{/processQuizStudent/{id} (id = ${quiz.getId()})}" th:if="${quizQ.getAnswerType()}=='multi_word'">
+            <h5 th:text="${quizQ.getQuestion()}"></h5>
+
+            <div class="row">
+                <div class="input-field col m6 s12">
+                    <input placeholder="Answer" name="answerByStd" id="qTotal" type="text" class="validate">
+                    <label >Type your answer</label>
+                </div>
+            </div>
+
+            <button type="submit" class="waves-effect waves-light btn-small">Next Question</button>
+        </form>
+
+
+        <!-- Quiz -->
+        <form  th:action="@{/processQuizStudent/{id} (id = ${quiz.getId()})}" th:if="${quizQ.getAnswerType()}=='mcq'">
+            <h5 th:text="${quizQ.getQuestion()}"></h5>
+
+            <p>
+                <label>
+                    <input id="check1" class="with-gap" type="radio" name='answerByStd' th:value="${quizQ.getOptA()}" />
+                    <span id="option1" th:text="${quizQ.getOptA()}"></span>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input id="check2" class="with-gap" type="radio" name='answerByStd' th:value="${quizQ.getOptB()}" />
+                    <span id="option2" th:text="${quizQ.getOptB()}"></span>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input id="check3" class="with-gap" type="radio" name='answerByStd' th:value="${quizQ.getOptC()}" />
+                    <span id="option3" th:text="${quizQ.getOptC()}"></span>
+                </label>
+            </p>
+            <button type="submit"  class="waves-effect waves-light btn-small">Next Question</button>
+        </form>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+</body>
+
+</html>

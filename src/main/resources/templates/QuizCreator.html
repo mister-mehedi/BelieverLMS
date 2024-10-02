@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" th:href="@{/Quiz.css}">
+    <title>Quiz Generator</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="nav-wrapper teal lighten-2 class">
+            <a href="#" class="brand-logo center">Quiz Generator</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container" id="container">
+        <!-- Configue Quiz -->
+        <div class="row" id="quizConfig">
+            <form class="col s12" th:action="@{/createQuiz/{cohortID} (cohortID=${cohort.getId()})}">
+                <div class="row">
+                    <div class="input-field col m6 s12">
+                        <input placeholder="Name" name="quizName" id="quizName" type="text" class="validate">
+                        <label for="quizName">Name of the quiz</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col m6 s12">
+                        <input placeholder="1 - 100" name="quizQuestionNum" id="qTotal" type="number" class="validate">
+                        <label for="qTotal">Number of questions to create</label>
+                    </div>
+                </div>
+
+
+                <div class="col s6">
+                    <button type="submit" id="generateBtn" class="waves-effect waves-light btn-small">Generate Quiz</button>
+                </div>
+
+            </form>
+            <!-- Create questions -->
+
+        </div>
+
+<!--        &lt;!&ndash; Quiz Form &ndash;&gt;-->
+<!--        <div id="formContainer">-->
+
+<!--            <a  class="waves-effect waves-light btn-small" onclick="toggleForm1()">Multiple Choice-->
+<!--                Question</a>-->
+<!--            <a  class="waves-effect waves-light btn-small" onclick="toggleForm2()">Multi Word Question</a>-->
+<!--            <a  class="waves-effect waves-light btn-small" onclick="toggleForm3()">Speech Question</a>-->
+
+<!--            <form id="quizForm3" class="col s12 hide">-->
+<!--                <h5>Speech Question</h5>-->
+<!--                &lt;!&ndash; Title &ndash;&gt;-->
+<!--                <div class="row">-->
+<!--                    <div class="input-field col s12 m6">-->
+<!--                        <input id="speechqtitle" placeholder="Enter the question" type="text" class="validate">-->
+<!--                        <label for="speechqtitle">Question Title</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Submit Button &ndash;&gt;-->
+<!--                <div class="col s6">-->
+<!--                    <a  class="waves-effect waves-light btn-small">Add Question</a>-->
+<!--                </div>-->
+<!--            </form>-->
+
+<!--            <form id="quizForm2" class="col s12 hide">-->
+<!--                <h5>Multi word Question</h5>-->
+<!--                &lt;!&ndash; Title &ndash;&gt;-->
+<!--                <div class="row">-->
+<!--                    <div class="input-field col s12 m6">-->
+<!--                        <input id="title" placeholder="Enter the question" type="text" class="validate">-->
+<!--                        <label for="question_title">Question Title</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Submit Button &ndash;&gt;-->
+<!--                <div id="submitBtn" class="col s6">-->
+<!--                    <a id="submit" class="waves-effect waves-light btn-small">Add Question</a>-->
+<!--                </div>-->
+<!--            </form>-->
+
+
+<!--            <form id="quizForm1" class="col s12 hide">-->
+<!--                <h5>Multiple Choice Question</h5>-->
+<!--                &lt;!&ndash; Title &ndash;&gt;-->
+<!--                <div class="row">-->
+<!--                    <div class="input-field col s12 m6">-->
+<!--                        <input id="title" placeholder="Enter the question" type="text" class="validate">-->
+<!--                        <label for="question_title">Question Title</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; User Input 1 &ndash;&gt;-->
+<!--                <div class="row">-->
+<!--                    <div class="input-field col s12 m6">-->
+<!--                        <input id="input1" placeholder="Enter answer" type="text" class="validate">-->
+<!--                        <label>Option A</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; User Input 2 &ndash;&gt;-->
+<!--                <div class="row">-->
+<!--                    <div class="input-field col s12 m6">-->
+<!--                        <input id="input2" placeholder="Enter answer" type="text" class="validate">-->
+<!--                        <label>Option B</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash;User Input 3 &ndash;&gt;-->
+<!--                <div class="row">-->
+<!--                    <div class="input-field col s12 m6">-->
+<!--                        <input id="input3" placeholder="Enter answer" type="text" class="validate">-->
+<!--                        <label>Option C</label>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+
+<!--                &lt;!&ndash; Submit Button &ndash;&gt;-->
+<!--                <div id="submitBtn" class="col s6">-->
+<!--                    <a id="submit" class="waves-effect waves-light btn-small">Add Question</a>-->
+<!--                </div>-->
+<!--            </form>-->
+
+
+<!--            <script>-->
+<!--                function toggleForm1() {-->
+<!--                    var element1 = document.getElementById("quizForm1");-->
+<!--                    var element2 = document.getElementById("quizForm2");-->
+<!--                    var element3 = document.getElementById("quizForm3");-->
+
+<!--                    element1.classList.remove("hide");-->
+
+<!--                    element2.classList.add("hide");-->
+<!--                    element3.classList.add("hide");-->
+<!--                }-->
+
+<!--                function toggleForm2() {-->
+<!--                    var element1 = document.getElementById("quizForm1");-->
+<!--                    var element2 = document.getElementById("quizForm2");-->
+<!--                    var element3 = document.getElementById("quizForm3");-->
+
+<!--                    element2.classList.remove("hide");-->
+
+<!--                    element1.classList.add("hide");-->
+<!--                    element3.classList.add("hide");-->
+<!--                }-->
+
+<!--                function toggleForm3() {-->
+<!--                    var element1 = document.getElementById("quizForm1");-->
+<!--                    var element2 = document.getElementById("quizForm2");-->
+<!--                    var element3 = document.getElementById("quizForm3");-->
+
+<!--                    element3.classList.remove("hide");-->
+
+<!--                    element2.classList.add("hide");-->
+<!--                    element1.classList.add("hide");-->
+<!--                };-->
+
+
+<!--            </script>-->
+
+<!--        </div>-->
+
+        <!-- Quiz -->
+        <!-- <form id="quiz" class="hide" action="#">
+            <h5 id="qTitle"></h5>
+           
+            <p>
+                <label>
+                    <input id="check1" class="with-gap" type="radio" name='choices' value="A" />
+                    <span id="option1"></span>
+                </label>
+            </p>
+          
+            <p>
+                <label>
+                    <input id="check2" class="with-gap" type="radio" name='choices' value="B" />
+                    <span id="option2"></span>
+                </label>
+            </p>
+        
+            <p>
+                <label>
+                    <input id="check3" class="with-gap" type="radio" name='choices' value="C" />
+                    <span id="option3"></span>
+                </label>
+            </p>
+            <a id="submitAnswer" class="waves-effect waves-light btn-small">Next Question</a>
+        </form> -->
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<!--    <script src="Quiz.js"></script>-->
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" th:href="@{/studentcohort.css}">
+  <title>Student Cohort Page</title>
+</head>
+<body>
+
+<!-- Importing Navbar -->
+<!--<div th:insert="navbar.html :: cohort-out-nav"></div>-->
+
+
+<!-- Main Container Start -->
+<div class="main-container" >
+  <h1>It's student cohort page</h1>
+
+  <b>Welcome <p th:text="${user.getFullName()}"></p></b>
+
+  <form th:action="@{/logout}" method="post">
+    <!--    Welcome <b><p th:text="${user.getFullName()}"></p></b>-->
+    <input type="submit" value="Logout"/>
+  </form>
+
+
+  <div th:each="cohort : ${stdCohortList}">
+      <div th:if="${cohort != null}">
+          <a th:href="@{/viewStdCohort/{id} (id = ${cohort.getId()})}">
+              <p th:text="${cohort.getCohortName()}"></p>
+          </a>
+      </div>
+  </div>
+
+
+</div>
+
+<!-- Importing Footer -->
+<!--<div th:insert="footer.html :: footer"></div>-->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

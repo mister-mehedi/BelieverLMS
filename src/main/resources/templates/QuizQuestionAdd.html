@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Question Add</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" th:href="@{/Quiz.css}">
+</head>
+<body>
+
+        <!-- Quiz Form -->
+        <div id="formContainer">
+
+            <a  class="waves-effect waves-light btn-small" onclick="toggleForm1()">Multiple Choice
+                Question</a>
+            <a  class="waves-effect waves-light btn-small" onclick="toggleForm2()">Multi Word Question</a>
+            <a  class="waves-effect waves-light btn-small" onclick="toggleForm3()">Speech Question</a>
+
+            <form id="quizForm3" class="col s12 hide" th:action="@{/addQuestion/{quizID}/{questionType} (quizID = ${quiz.getId()}, questionType=${'speech'} )}">
+                <h5>Speech Question</h5>
+                <!-- Title -->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="speechqtitle" placeholder="Enter the question" name="question" type="text" class="validate">
+                        <label for="speechqtitle">Question Title</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="answer2" name="Canswer" placeholder="Enter correct answer" type="text" class="validate">
+                        <label for="answer2">Correct Answer</label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col s6">
+                    <button type="submit"  class="waves-effect waves-light btn-small">Add Question</button>
+                </div>
+            </form>
+
+            <form id="quizForm2" class="col s12 hide" th:action="@{/addQuestion/{quizID}/{questionType} (quizID = ${quiz.getId()}, questionType=${'multi_word'} )}">
+                <h5>Multi word Question</h5>
+                <!-- Title -->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="multiQ" placeholder="Enter the question" name="question" type="text" class="validate">
+                        <label for="multiQ">Question Title</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="answer1" name="Canswer" placeholder="Enter correct answer" type="text" class="validate">
+                        <label for="answer1">Correct Answer</label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div  class="col s6">
+                    <button type="submit" class="waves-effect waves-light btn-small">Add Question</button>
+                </div>
+            </form>
+
+
+            <form id="quizForm1" class="col s12 hide"  th:action="@{/addQuestion/{quizID}/{questionType} (quizID = ${quiz.getId()}, questionType=${'mcq'} )}">
+                <h5>Multiple Choice Question</h5>
+                <!-- Title -->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="mcq" placeholder="Enter the question" name="question" type="text" class="validate">
+                        <label for="mcq">Question Title</label>
+                    </div>
+                </div>
+                <!-- User Input 1 -->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="input1" name="optA" placeholder="Enter option A" type="text" class="validate">
+                        <label for="input1">Option A</label>
+                    </div>
+                </div>
+                <!-- User Input 2 -->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="input2" name="optB" placeholder="Enter option B" type="text" class="validate">
+                        <label for="input2">Option B</label>
+                    </div>
+                </div>
+
+                <!--User Input 3 -->
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="input3" name="optC" placeholder="Enter option C" type="text" class="validate">
+                        <label for="input3">Option C</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="answer" name="Canswer" placeholder="Enter correct answer" type="text" class="validate">
+                        <label for="answer">Correct Answer</label>
+                    </div>
+                </div>
+
+
+                <!-- Submit Button -->
+                <div id="submitBtn" class="col s6">
+                    <button id="submit" type="submit" class="waves-effect waves-light btn-small">Add Question</button>
+                </div>
+            </form>
+
+
+            <script>
+                function toggleForm1() {
+                    var element1 = document.getElementById("quizForm1");
+                    var element2 = document.getElementById("quizForm2");
+                    var element3 = document.getElementById("quizForm3");
+
+                    element1.classList.remove("hide");
+
+                    element2.classList.add("hide");
+                    element3.classList.add("hide");
+                }
+
+                function toggleForm2() {
+                    var element1 = document.getElementById("quizForm1");
+                    var element2 = document.getElementById("quizForm2");
+                    var element3 = document.getElementById("quizForm3");
+
+                    element2.classList.remove("hide");
+
+                    element1.classList.add("hide");
+                    element3.classList.add("hide");
+                }
+
+                function toggleForm3() {
+                    var element1 = document.getElementById("quizForm1");
+                    var element2 = document.getElementById("quizForm2");
+                    var element3 = document.getElementById("quizForm3");
+
+                    element3.classList.remove("hide");
+
+                    element2.classList.add("hide");
+                    element1.classList.add("hide");
+                }
+
+
+            </script>
+
+        </div>
+
+</body>
+</html>
