@@ -41,26 +41,6 @@ BelieverLMS is a full-featured **Learning Management System** (LMS) built with S
 | Tools | Lombok, Multipart File Handling |
 | Deployment | Runs on port `8080` |
 
----
-
-
-## 🧩 Project Structure
-
-src/ 
-└── main/ 
-  ├── java/com/example/lms_cse327/ │   
-    ├── Controllers/ │   
-    ├── Models/ │   
-    ├── Repositories/ │   
-    ├── Services/ │   
-    ├── SecurityConfig/ 
-    │   └── Utils/ 
-    ├── resources/ │   
-    ├── templates/ # Thymeleaf HTML Views │   
-    ├── static/UploadedFiles/   # Uploaded Attachments │   
-    └── application.properties
-
-
 
 ---
 
@@ -83,17 +63,34 @@ spring.servlet.multipart.max-request-size=100MB
 🚀 How to Run
 Follow these steps to get started:
 - Clone the Repository
+```
 git clone https://github.com/your-username/BelieverLMS.git
 cd BelieverLMS
+```
 
 - Configure the Database
   - Create a new schema named lms_test in MySQL.
   - Update credentials in application.properties.
 - Build and Run
+```
 ./mvnw spring-boot:run
-
+```
 - Open in Browser
   - Navigate to: http://localhost:8080
   - Log in via Google OAuth2
   - On first login, complete your profile (Student or Teacher
+
+---
+
+
+📨 Endpoints Summary
+| Role | Path | Function | 
+| All | /login | Google OAuth2 login | 
+| Both | /home | Role selector & dashboard redirect | 
+| Student | /studentCohort, /quizStudent/{id} | View cohorts and take quiz | 
+| Teacher | /createQuiz/{cohortId}, /addQuestion/... | Quiz creation & question addition | 
+| All | /viewMarkSheetStd | View student’s quiz marks | 
+
+
+
 
