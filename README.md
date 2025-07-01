@@ -46,7 +46,19 @@ BelieverLMS is a full-featured **Learning Management System** (LMS) built with S
 
 ## 🧩 Project Structure
 
-src/ └── main/ ├── java/com/example/lms_cse327/ │   ├── Controllers/ │   ├── Models/ │   ├── Repositories/ │   ├── Services/ │   ├── SecurityConfig/ │   └── Utils/ ├── resources/ │   ├── templates/               # Thymeleaf HTML Views │   ├── static/UploadedFiles/   # Uploaded Attachments │   └── application.properties
+src/ 
+└── main/ 
+  ├── java/com/example/lms_cse327/ │   
+    ├── Controllers/ │   
+    ├── Models/ │   
+    ├── Repositories/ │   
+    ├── Services/ │   
+    ├── SecurityConfig/ 
+    │   └── Utils/ 
+    ├── resources/ │   
+    ├── templates/ # Thymeleaf HTML Views │   
+    ├── static/UploadedFiles/   # Uploaded Attachments │   
+    └── application.properties
 
 
 
@@ -64,3 +76,24 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 spring.servlet.multipart.max-file-size=100MB
 spring.servlet.multipart.max-request-size=100MB
+```
+
+---
+
+🚀 How to Run
+Follow these steps to get started:
+- Clone the Repository
+git clone https://github.com/your-username/BelieverLMS.git
+cd BelieverLMS
+
+- Configure the Database
+  - Create a new schema named lms_test in MySQL.
+  - Update credentials in application.properties.
+- Build and Run
+./mvnw spring-boot:run
+
+- Open in Browser
+  - Navigate to: http://localhost:8080
+  - Log in via Google OAuth2
+  - On first login, complete your profile (Student or Teacher
+
