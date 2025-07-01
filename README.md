@@ -44,3 +44,23 @@ BelieverLMS is a full-featured **Learning Management System** (LMS) built with S
 ---
 
 
+## 🧩 Project Structure
+
+src/ └── main/ ├── java/com/example/lms_cse327/ │   ├── Controllers/ │   ├── Models/ │   ├── Repositories/ │   ├── Services/ │   ├── SecurityConfig/ │   └── Utils/ ├── resources/ │   ├── templates/               # Thymeleaf HTML Views │   ├── static/UploadedFiles/   # Uploaded Attachments │   └── application.properties
+
+
+
+---
+
+## ⚙️ Configuration
+
+```properties
+server.port=8080
+spring.datasource.url=jdbc:mysql://localhost:3306/lms_test
+spring.datasource.username=root
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.servlet.multipart.max-file-size=100MB
+spring.servlet.multipart.max-request-size=100MB
