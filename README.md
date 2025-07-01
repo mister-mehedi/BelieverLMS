@@ -1,11 +1,46 @@
-# BelieverLMS
+# 💡 BelieverLMS
 
-## A Learning Management System
+BelieverLMS is a full-featured **Learning Management System** (LMS) built with Spring Boot. It provides dynamic role-based access for students and teachers, offering functionality like cohort management, quiz creation and evaluation, post sharing with file attachments, secure OAuth2 authentication, and more.
 
-Characteristcs:
-1. User-Centric: Designed for teachers to assess students and for students to access course materials and quizzes.
-2. AI-Driven: Integrates AI for automated exam evaluation, plagiarism detection, and invigilation.
-4. Cohort-Based Learning: Enables teachers to create and manage student cohorts, assign tasks, and track progress.
-5. Interactive Quiz Maker: Supports customizable quizzes with various question types and timers.
-6. Comprehensive Reporting: Generates attention span analysis, grade reports, and academic performance insights.
-7. Cross-Platform Accessibility: Available via web and mobile for seamless learning and notifications.
+---
+
+## 🚀 Features
+
+### 👨‍🏫 Teacher Functionalities
+- Create and manage **Cohorts** and **Sub-Cohorts**
+- Share posts with **file attachments**
+- Create **Quizzes**, add questions (MCQs or subjective), and assign to cohorts
+- View student participation and **Marksheets**
+
+### 👩‍🎓 Student Functionalities
+- Enroll in assigned cohorts
+- View cohort **materials, people**, and **groups**
+- Take **interactive quizzes**
+- View personal **marksheet and quiz history**
+
+### 🔐 Authentication & Security
+- **OAuth2 Login** (Google)
+- Role-based navigation and dashboard redirection
+- Secure session and profile setup per user
+
+### 📁 File Uploading
+- Upload and attach files to posts using Base64 encoding
+- Large file support (up to 100MB)
+- Files stored and retrieved from `UploadedFiles` directory
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| Backend | Spring Boot, Spring MVC |
+| Database | MySQL (via Spring Data JPA) |
+| Security | Spring Security, OAuth2 |
+| View | Thymeleaf (via `.html` templates) |
+| Tools | Lombok, Multipart File Handling |
+| Deployment | Runs on port `8080` |
+
+---
+
+
