@@ -85,7 +85,8 @@ cd BelieverLMS
 
 📨 Endpoints Summary
 ```
-| Role | Path | Function | 
+| Role | Path | Function |
+| --- | --- | --- | 
 | All | /login | Google OAuth2 login | 
 | Both | /home | Role selector & dashboard redirect | 
 | Student | /studentCohort, /quizStudent/{id} | View cohorts and take quiz | 
