@@ -83,17 +83,21 @@ cd BelieverLMS
 ---
 
 
-📨 Endpoints Summary
-```
-| Role | Path | Function |
-| --- | --- | --- | 
-| All | /login | Google OAuth2 login | 
-| Both | /home | Role selector & dashboard redirect | 
-| Student | /studentCohort, /quizStudent/{id} | View cohorts and take quiz | 
-| Teacher | /createQuiz/{cohortId}, /addQuestion/... | Quiz creation & question addition | 
-| All | /viewMarkSheetStd | View student’s quiz marks |
-```
+## 📌 Key Endpoints
 
+| Method | Path                            | Access         | Description                             |
+|--------|----------------------------------|----------------|-----------------------------------------|
+| GET    | `/login`                         | Public         | Login with OAuth2 (Google)              |
+| GET    | `/home`                          | Authenticated  | Redirect to dashboard based on role     |
+| GET    | `/studentCohort`                | Student        | View all enrolled cohorts               |
+| GET    | `/cohort/{id}`                  | Teacher        | View/manage a specific cohort           |
+| POST   | `/post/{cohortID}`              | Teacher        | Add post with attached files            |
+| GET    | `/quizStudent/{id}`             | Student        | Take a quiz                             |
+| POST   | `/processQuizStudent/{id}`      | Student        | Submit answers for grading              |
+| GET    | `/viewMarkSheetStd`             | Student        | View marksheet and quiz results         |
+| GET    | `/createCohort`                 | Teacher        | Create a new cohort                     |
+| GET    | `/createQuiz/{cohortID}`        | Teacher        | Create a quiz for a cohort              |
+| POST   | `/studentData`, `/teacherData`  | First-time User| Save role-based profile info            |
 
 
 
