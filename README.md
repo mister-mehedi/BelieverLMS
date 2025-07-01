@@ -84,12 +84,14 @@ cd BelieverLMS
 
 
 📨 Endpoints Summary
+```
 | Role | Path | Function | 
 | All | /login | Google OAuth2 login | 
 | Both | /home | Role selector & dashboard redirect | 
 | Student | /studentCohort, /quizStudent/{id} | View cohorts and take quiz | 
 | Teacher | /createQuiz/{cohortId}, /addQuestion/... | Quiz creation & question addition | 
-| All | /viewMarkSheetStd | View student’s quiz marks | 
+| All | /viewMarkSheetStd | View student’s quiz marks |
+```
 
 
 
